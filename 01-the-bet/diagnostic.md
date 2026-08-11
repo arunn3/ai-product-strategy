@@ -40,11 +40,11 @@ Smaller customers with simpler workflows could potentially vibe-code a simple ma
 *MMS workflow integration and data advantage is our defense. Customers would find it difficult to migrate the workflows to the platform and retrain the users while daily operations continue to add more data into our system* 
 
 **Named attacker (from partner challenge):**
-
+*Palantir*
 ---
 
 ## Top Vulnerability
-<!-- One line: what's the single biggest strategic risk? -->
+<!-- If a customer decides to migrate the base MMS workflows to a competitor, then the assistance is not useful anymore -->
 
 ## Confidence Level
-<!-- H / M / L — how confident are you in this bet after the diagnostic? -->
+<!-- H -->
