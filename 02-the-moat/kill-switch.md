@@ -4,16 +4,16 @@
 
 | Dimension | Current State | Risk Level | 48-Hour Action |
 |-----------|--------------|------------|---------------|
-| **Provider** | | H / M / L | |
-| **Abstraction** | | H / M / L | |
-| **Routing** | | H / M / L | |
-| **Eval** | | H / M / L | |
+| **Provider** | *Anthropic*| M | Audit API calls that are not OpenAI compliant|
+| **Abstraction** | *Dedicated layer to route AI API calls* | L | Review to ensure easy switching vendor/model references |
+| **Routing** | *Need dynamic routing based on task complexity, quality, cost, latency etc.,* | H | Start designing routing into abstraction layer, potentially using an open source decision-maker model in front |
+| **Eval** | No Eval | H | Design and start implementing evals |
 
 ## Portability Score
-<!-- Ready / Partial / Locked -->
+<!--  Partial  -->
 
 ## If [primary vendor] doubles pricing tomorrow:
-<!-- What's your 48-hour response? -->
+<!-- Switch vendor/model references in the abstraction layer, manual testing since there is no eval right now -->
 
 ## If [primary vendor] ships a competing product:
-<!-- What's defensible that they can't replicate? -->
+<!-- The customer, asset, and line specific runbooks and schedules created so far based on actual usage in the field cannot be replicated -->
