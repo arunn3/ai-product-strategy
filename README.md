@@ -1,4 +1,4 @@
-# Product Leader
+# MMS-AI
 
 > A living strategy built across 6 sessions. Each module adds one component. By Module 6, this repo IS the strategy, version-controlled, board-ready, portable.
 
