@@ -387,7 +387,7 @@ h2 { font-size: 40px; font-weight: 800; color: #fff; margin-bottom: 24px; line-h
       <div class="hero-inner">
         <div class="hero-eyebrow">Pitching to: CEO + Leadership Team</div>
         <h1>MMS-AI (Maintenance Assistant/Co-pilot) is a chat interface add-on that help with maintenance scheduling, operator support during troubleshooting</h1>
-        <p class="hero-thesis">MMS-AI will improve maintenance response and scheduling decisions for plant teams by turning existing maintenance knowledge into guided, auditable support—starting with troubleshooting, not broad automation.</p>
+        <p class="hero-thesis">Invest $200K over three months to make MMS the system that helps maintenance teams resolve operational issues faster and make safer scheduling decisions, beginning with a narrow workflow we can prove or stop.</p>
         <div class="cover-strip"><div class="cover-pill"><span class="cp-label">Confidence</span>M</div><div class="cover-pill"><span class="cp-label">Threat</span>*OpenAI*</div><div class="cover-pill"><span class="cp-label">Target</span>90%</div></div>
         <div class="scroll-hint">Scroll <span>&#8595;</span></div>
       </div>
@@ -397,8 +397,8 @@ h2 { font-size: 40px; font-weight: 800; color: #fff; margin-bottom: 24px; line-h
       <div class="inner">
         <div class="section-label">The Case · 1 of 3</div>
         <h2>Why now</h2>
-        <div class="lead">The immediate timing window is competitive, not technological: an entrenched vertical competitor could offer a comparable assistant within six months.</div>
-        <div class="body">We should use the next 4–12 weeks to prove a narrow maintenance workflow before this becomes a bundled feature elsewhere; the strategy does not yet contain external market evidence, customer demand evidence, or a quantified timing signal beyond that competitive risk.</div>
+        <div class="lead">We are already behind competitors on AI functions, and an entrenched vertical competitor could package comparable assistance into its existing maintenance suite within six months.</div>
+        <div class="body">This is not a proposal to “add AI”; it is a proposal to protect MMS’s relevance in the maintenance workflow by shipping a focused troubleshooting capability in four weeks, then earning the right to validate asset-level schedule optimization. Strategic-fit caveat: this advances the company thesis only if MMS is intended to own or deepen the maintenance operating workflow; if our strategy is merely to provide a general-purpose platform, this should not be funded.</div>
       </div>
     </section>
 
@@ -406,8 +406,8 @@ h2 { font-size: 40px; font-weight: 800; color: #fff; margin-bottom: 24px; line-h
       <div class="inner">
         <div class="section-label">The Case · 2 of 3</div>
         <h2>What's defensible</h2>
-        <div class="lead">The intended moat is the M2 Domain Context Loop: user corrections and outcomes improve customer-specific runbooks, which should make future guidance more relevant than a generic assistant.</div>
-        <div class="body">Today this is a weak moat, scored 9/20 on the data flywheel, with no demonstrated switching cost or cross-domain advantage; it will not be defensible in six months unless we capture validated maintenance context, outcomes, and workflow integrations faster than competitors can replicate the interface.</div>
+        
+        <div class="body">The M2 moat is a customer-specific Domain Context Loop: approved maintenance content and operating context inform guidance; technician corrections and outcomes improve the runbook; validated learning makes subsequent guidance more useful in that customer’s workflow. Today that moat is weak—data-flywheel score 9/20, partial vendor portability, and no proven switching cost—so the interface itself is not defensible. The three-month objective is to prove that correction, outcome, and runbook data can become a differentiated asset before a vertical incumbent or OpenAI-based implementation reduces the product to a commodity chat feature.</div>
         <div class="inline-tag"><span class="it-label">Top threat</span>*OpenAI*</div>
       </div>
     </section>
@@ -416,8 +416,8 @@ h2 { font-size: 40px; font-weight: 800; color: #fff; margin-bottom: 24px; line-h
       <div class="inner">
         <div class="section-label">The Case · 3 of 3</div>
         <h2>The economics</h2>
-        <div class="lead">AI COGS are currently estimated at $18 per unit against a $30 break-even threshold, with a stated current gross margin of $5.</div>
-        <div class="body">The routing plan—lightweight-model triage with frontier-model escalation—is the right first cost control, but pricing, AI-adjusted gross margin, net-margin shift, billing unit, and power-user economics are incomplete; do not commit to outcome-based pricing until the customer value metric and stress-tested margin model are defined.</div>
+        <div class="lead">$18 of estimated AI COGS against a $30 break-even threshold leaves no room for uncontrolled usage or untested outcome-based pricing.</div>
+        <div class="body">We will ship routing between lightweight and frontier models in H1 to contain cost, then establish an AI-adjusted gross margin, billing unit, and low/median/10× usage economics before any pricing commitment. The economics are not yet investment-ready; the funded work must show that the product can retain margin under heavier usage rather than merely demonstrate technical capability.</div>
         <div class="stat-strip"><div class="stat-tile"><div class="stat-label">Gross margin</div><div class="stat-value">**Pricing Model:** outcome-based</div><div class="stat-detail">vs $5 pre-AI</div></div><div class="stat-tile"><div class="stat-label">AI COGS / unit</div><div class="stat-value">$18</div></div><div class="stat-tile"><div class="stat-label">Break-even</div><div class="stat-value">$30</div></div></div>
       </div>
     </section>
@@ -429,15 +429,15 @@ h2 { font-size: 40px; font-weight: 800; color: #fff; margin-bottom: 24px; line-h
         <div class="risk-grid">
           <div class="risk-card">
             <div class="risk-label">Trust / Failure</div>
-            <div class="risk-body">The front-page failure is guidance that causes a technician to take an unsafe or damaging action during a production-line issue, or a schedule recommendation that creates an avoidable outage. The intended controls are uncertainty display, cited and auditable guidance, escalation after repeated failed attempts or line-down conditions, and human approval before applying schedule changes; however, the reliability promise is not credible yet because “90% reliability” is undefined and the golden dataset contains only six cases.</div>
+            <div class="risk-body">The unacceptable failure is the copilot directing a technician toward an unsafe or damaging action during a live production incident, or recommending a schedule change that causes an avoidable outage. The product will not auto-fix equipment; schedule changes require human approval; troubleshooting guidance must show uncertainty, retain an auditable record, and escalate after repeated failed attempts or a line-down condition. The current trust position is insufficient for scale: the 90% reliability target is undefined and the golden dataset has only six cases, so we must define failure categories, source requirements, confidence thresholds, and an expanded evaluation set before broader rollout.</div>
           </div>
           <div class="risk-card">
             <div class="risk-label">Scale / Governance</div>
-            <div class="risk-body">At 10x usage, the first failure points will be inference cost, inconsistent answer quality across assets and sites, incomplete source data, and trust erosion from ungoverned learned content. M5 establishes useful foundations—no autonomous fixing, approval for scheduling changes, audit logs, weekly tests, real-time monitoring, and monthly vendor-portability checks—but it lacks change control for models and runbooks, a defined approval flow for corrections, and a completed shadow-AI audit.</div>
+            <div class="risk-body">At 10× usage, cost, inconsistent source data, uneven answer quality across sites, and uncontrolled changes to runbooks will erode trust before infrastructure becomes the constraint. M5 provides the initial boundaries—no autonomous fixes, approvals for schedule changes, audit logs, weekly testing, real-time monitoring, and vendor-readiness testing—but not yet the required change control for model versions, retrieval content, learned corrections, or rollback. We will treat validated runbook updates as governed product changes, not automatic learning, and complete a user-side shadow-AI audit to identify unsanctioned workarounds and demand signals.</div>
           </div>
           <div class="risk-card">
             <div class="risk-label">Competitive</div>
-            <div class="risk-body">The competitive kill scenario is a vertical maintenance or industrial-software incumbent shipping comparable troubleshooting and scheduling support, embedded in the systems our users already operate, before we establish a differentiated customer-context loop. We have no explicit competitive kill criterion today; the near-term product kill criterion is more concrete: stop the Schedule Optimizer if, by week 8, we do not achieve at least 60% planner acceptance and a measurable improvement in an agreed scheduling metric.</div>
+            <div class="risk-body">We stop the scheduling bet if a vertical incumbent delivers comparable maintenance assistance embedded in the systems our customers already use and we cannot show a superior customer-context loop or measurable workflow outcome. Our immediate evidence gate is stricter and within our control: stop the Schedule Optimizer if, by week 8, it does not achieve at least 60% planner acceptance and measurable improvement in one agreed scheduling metric without operational disruption. We do not fund line-wide downtime optimization until the asset-level evidence exists.</div>
           </div>
         </div>
       </div>
@@ -474,9 +474,9 @@ h2 { font-size: 40px; font-weight: 800; color: #fff; margin-bottom: 24px; line-h
       <div class="inner">
         <div class="section-label">The Ask</div>
         <h2>What we're asking for</h2>
-        
-        
-        <div class="ask-supporting">Gap: the strategy does not yet specify a credible dollar amount, headcount, accountable owners, or a trade-off, so leadership cannot make an investment decision as written. Request a 12-week, tightly bounded validation allocation for one product lead, one maintenance-domain lead, one applied-AI/data engineer, and shared design-partner and platform support; fund only the H1 troubleshooting release, routing economics, and one asset-level scheduling pilot. In return, leadership gets a decision package at week 8–12: adoption and acceptance data, a defined reliability contract and expanded evaluation set, validated unit economics, and a go/stop recommendation. If funded, pause the line-wide Downtime Reducer and Work Instruction Generator until the core troubleshooting and asset-level scheduling evidence is proven.</div>
+        <div class="ask-stats"><div class="ask-tile"><div class="ask-tile-label">Funding</div><div class="ask-tile-value">200K</div></div><div class="ask-tile"><div class="ask-tile-label">Headcount</div><div class="ask-tile-value">3</div></div><div class="ask-tile"><div class="ask-tile-label">Time horizon</div><div class="ask-tile-value">3 months</div></div></div>
+        <div class="ask-context">We are lagging behind competitors on AI functions</div>
+        <div class="ask-supporting">Approve $200K, three dedicated people, and three months for a bounded validation program: a product lead, an applied AI/data engineer, and a maintenance-domain lead, with shared design-partner, security, and platform support. The investment delivers an H1 troubleshooting release with auditability and escalation, cost-routing controls, an asset-level scheduling pilot, a defined reliability contract and expanded evaluation dataset, and a customer-site unit-economics decision package. In exchange, we pause the line-wide Downtime Reducer and Work Instruction Generator; neither receives build funding until troubleshooting adoption, schedule acceptance, trust controls, and margin evidence support a go decision.</div>
       </div>
     </section>
 
@@ -487,17 +487,17 @@ h2 { font-size: 40px; font-weight: 800; color: #fff; margin-bottom: 24px; line-h
           
             <div class="note-card">
               <div class="note-label">Open with</div>
-              <div class="note-body">“I am asking us to prove, in one maintenance workflow and within 12 weeks, whether we can create measurable operational value that our existing product and a generic assistant cannot.”</div>
+              <div class="note-body">“I am asking for a three-month, $200K decision sprint to protect MMS’s place in the maintenance workflow before competitors make AI assistance table stakes.”</div>
             </div>
           
             <div class="note-card">
               <div class="note-label">If you only get 60 seconds</div>
-              <div class="note-body">“MMS-AI is a focused maintenance-support bet: improve troubleshooting now and validate asset-level scheduling next. The risk is that we build an easily copied chat feature that plant teams cannot trust, so we will not expand until adoption, reliability, and unit economics are demonstrated. Fund a 12-week, narrow validation team and pause the broader line-optimization and work-instruction bets until we have evidence.”</div>
+              <div class="note-body">“This is a focused maintenance-workflow bet, not an AI feature program: prove that MMS can help technicians resolve issues faster and help planners make safer asset-level scheduling decisions. The risk is building a low-trust, low-margin chat layer that an incumbent can copy, so we will stop if scheduling does not reach 60% planner acceptance and measurable improvement by week 8. Approve $200K and three people for three months, while pausing line-wide downtime optimization and generated work instructions.”</div>
             </div>
           
             <div class="note-card">
               <div class="note-label">First question they'll ask</div>
-              <div class="note-body">“What are we choosing not to do, and what evidence will justify continuing investment?”  <br>  <strong>Answer:</strong> “We are pausing line-wide downtime optimization and generated work instructions, and we will continue only if the initial pilot demonstrates trusted troubleshooting adoption, at least 60% planner acceptance for scheduling recommendations, measurable operational improvement, and sustainable economics.”</div>
+              <div class="note-body">“Why should we fund this rather than let the incumbent or a general AI platform provide it?”  <br>  <strong>Answer:</strong> “We should fund only the narrow validation because our advantage is not the model—it is whether we can turn proprietary maintenance context, technician corrections, and verified outcomes into a customer-specific workflow asset before the interface becomes commoditized.”</div>
             </div>
         </div>
       </section>
