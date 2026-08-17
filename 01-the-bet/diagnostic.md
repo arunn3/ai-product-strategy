@@ -40,11 +40,11 @@ Smaller customers with simpler workflows could potentially vibe-code a simple ma
 *MMS workflow integration and data advantage is our defense. Customers would find it difficult to migrate the workflows to the platform and retrain the users while daily operations continue to add more data into our system* 
 
 **Named attacker (from partner challenge):**
-*Palantir*
+*Palantir has an Industrial AI Platform that has started adding maintenance related functions based on data ingested from our maintenance application. There is a potential they could add the assistant solution using their superior AI/ML capabilities*
 ---
 
 ## Top Vulnerability
-*If a customer decides to migrate the base MMS workflows to a competitor, then the assistance is not useful anymore *
+*If a customer decides to migrate the base MMS workflows to a competitor, then the assistance is not useful anymore*
 
 ## Confidence Level
-* H *
+*H*
