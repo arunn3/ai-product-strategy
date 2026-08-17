@@ -44,7 +44,7 @@ Smaller customers with simpler workflows could potentially vibe-code a simple ma
 ---
 
 ## Top Vulnerability
-<!-- If a customer decides to migrate the base MMS workflows to a competitor, then the assistance is not useful anymore -->
+*If a customer decides to migrate the base MMS workflows to a competitor, then the assistance is not useful anymore *
 
 ## Confidence Level
-<!-- H -->
+* H *
