@@ -23,13 +23,13 @@
 
 **Current pricing: N/A**<br>
 **Proposed AI pricing:**<br>
-*Strategy posture: Penetrate*<br>
+*Strategy posture:* Penetrate<br>
 *Pricing model:* Outcome / Resolution<br>
-Unit of work metered: troubleshooting sessions<br>
-Base fee ($/month): 20<br>
-Price per unit: $3<br>
-Estimated units/user/month: 5<br>
-Implied revenue/user/month: $35.00<br>
+*Unit of work metered:* troubleshooting sessions<br>
+*Base fee ($/month):* 20<br>
+*Price per unit:* $3<br>
+*Estimated units/user/month:* 5<br>
+*Implied revenue/user/month:* $35.00<br>
 **Model:** outcome-based<br>
 
 ## Stress Tests
