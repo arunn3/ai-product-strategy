@@ -21,7 +21,7 @@
 
 ## Pricing Model
 
-**Current pricing:** N/A
+**Current pricing: N/A**
 **Proposed AI pricing:**
 *Strategy posture: Penetrate*
 *Pricing model:* Outcome / Resolution
