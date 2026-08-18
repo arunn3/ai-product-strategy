@@ -23,7 +23,7 @@
 
 **Current pricing:** N/A
 **Proposed AI pricing:**
-*Strategy posture:* Penetrate
+*Strategy posture: Penetrate*
 *Pricing model:* Outcome / Resolution
 Unit of work metered: troubleshooting sessions
 Base fee ($/month): 20
