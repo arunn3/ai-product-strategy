@@ -18,6 +18,8 @@ Clean UI. Dark theme. One page. No login.*
 ## Prototype Link
 https://claude.ai/code/artifact/a85067a6-6531-4d40-876c-62e8d6d9dc98
 *link probably not accessible due to Anthropic login - hence added screenshot to the repo*
+https://github.com/arunn3/ai-product-strategy/blob/main/01-the-bet/Maintenance-Assist%20First%20Screen.pdf
+https://github.com/arunn3/ai-product-strategy/blob/main/01-the-bet/Maintenance-Assist%20Response%20Screen.pdf
 
 ## AI Value Archetype
 *Copilot*
@@ -26,4 +28,4 @@ https://claude.ai/code/artifact/a85067a6-6531-4d40-876c-62e8d6d9dc98
 *A machine error troubleshooting assistant for production operators*
 
 ## Kill Criteria
-<!-- When would you stop? What evidence would kill this bet? -->
+*If at least 25% users at deployed factories do not use the troubleshooting function at least once in 3 months*
