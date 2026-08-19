@@ -1,5 +1,10 @@
 # Cost Curve & Pricing Strategy
 
+## Packaging Decision
+**Leader** Machine Error Troubleshooting based on text input
+**Filler** Multi-modal input — operator can snap a photo of the fault or describe it in plain language when the code is smudged, missing, or ambiguous, instead of being blocked on typing an exact code.
+**Killer** Automated fixing of issue - at many places machines may not have the capability to be fixed using AI, hence customers may not be willing to pay for this capability
+
 ## Cost Model
 
 | Cost Category | Per-User/Month | Notes |
@@ -13,6 +18,12 @@
 
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
+
+| Feature | Complexity | Model Tier | Cost/Req | Volume % | Weighted |
+|--------------|----------------|-------| --------------|----------------|-------|
+| Inference (primary model) |$12|Sonnet 5 | Inference (primary model) |$12|Sonnet 5 |
+| Inference (cascading/triage) |$6 | Haiku 4.5 | Inference (cascading/triage) |$6 | Haiku 4.5 |
+| Infrastructure | $1| Azure, minimal since most of infra is on-prem at customer site|Infrastructure | $1| Azure, minimal since most of infra is on-prem at customer site|
 
 **Triage model:** Haiku 4.5
 **Frontier model:** Sonnet 5.0
