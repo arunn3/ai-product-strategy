@@ -21,9 +21,9 @@
 
 | Feature | Complexity | Model Tier | Cost/Req | Volume % | Weighted |
 |--------------|----------------|-------| --------------|----------------|-------|
-| Inference (primary model) |$12|Sonnet 5 | Inference (primary model) |$12|Sonnet 5 |
-| Inference (cascading/triage) |$6 | Haiku 4.5 | Inference (cascading/triage) |$6 | Haiku 4.5 |
-| Infrastructure | $1| Azure, minimal since most of infra is on-prem at customer site|Infrastructure | $1| Azure, minimal since most of infra is on-prem at customer site|
+| Error Troubleshooting | Medium | Sonnet 5 | $0.8 |70%|$0.56 |
+| Multi-modal input | Complex | Opus 5 | $1.5 |20% | 0.3 |
+| Automated issue fixing | Complex| Sonnet 5| $1 | 10%| $0.1|
 
 **Triage model:** Haiku 4.5
 **Frontier model:** Sonnet 5.0
