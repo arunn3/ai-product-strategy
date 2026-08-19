@@ -24,6 +24,7 @@
 | Error Troubleshooting | Medium | Sonnet 5 | $0.8 |70%|$0.56 |
 | Multi-modal input | Complex | Opus 5 | $1.5 |20% | 0.3 |
 | Automated issue fixing | Complex| Sonnet 5| $1 | 10%| $0.1|
+|  | | Blended|  | 100%| $0.87|
 
 **Triage model:** Haiku 4.5
 **Frontier model:** Sonnet 5.0
