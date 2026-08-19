@@ -26,8 +26,8 @@
 - **Vulnerability Scores:** _(add: Moat 3/5 · Data 4/5 · Platform 4/5)_
 - **Top Risk:** Entrenched vertical competitor could offer similar product in 6 months
 - **Confidence:** M
-- **Prototype:**
-- **Kill Criteria:**
+- **Prototype:** https://claude.ai/code/artifact/a85067a6-6531-4d40-876c-62e8d6d9dc98
+- **Kill Criteria:** *If at least 25% users at deployed factories do not use the troubleshooting function at least once in 3 months*
 
 → Details: [`01-the-bet/`](01-the-bet/)
 
